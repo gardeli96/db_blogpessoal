@@ -11,10 +11,13 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.validation.constraints.NotBlank;
 
+
+
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity
 @Table(name = "tb_temas")
+
 public class Tema {
 @Id
 @GeneratedValue(strategy = GenerationType.IDENTITY)
